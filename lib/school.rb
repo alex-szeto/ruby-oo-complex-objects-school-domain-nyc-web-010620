@@ -18,7 +18,7 @@ class School
       if key == grade
         output << roster[key]
       end
-    },
+    }
     return output.flatten
   end  
   
